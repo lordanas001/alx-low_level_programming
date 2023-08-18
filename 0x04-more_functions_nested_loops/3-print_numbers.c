@@ -1,11 +1,12 @@
 #include "main.h"
-#include <stdio.h>	
-void print_numbers(void)
+void print_numbers (void)
 {
 int i;
-for(i=0; i<10; i++)
+i = 0;
+while (i < 10)
 {
-printf("%d", i);
+_putchar (i + '0');
+i++;
 }
-printf("\n");
+_putchar ('\n');
 }
