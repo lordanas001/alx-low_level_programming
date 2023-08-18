@@ -9,7 +9,7 @@ if ((number == 2) || (number == 4))
 {
 continue;
 }
-_putchar (number + '0');
+_putchar (number);
 }
-_putchar ("\n");
+_putchar (10);
 }
