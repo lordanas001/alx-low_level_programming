@@ -15,7 +15,7 @@ ii++;
 ii = 0;
 while (ii <  i)
 {
-__putchar('#');
+_putchar('#');
 ii++;
 }
 
